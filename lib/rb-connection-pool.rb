@@ -13,6 +13,11 @@
 # PERFORMANCE OF THIS SOFTWARE.
 
 module RbConnectionPool
+
+  def self.new_pool(size: 10, timeout: 2.5, &block)
+    ConnectionPool.new(size: size, timeout: timeout, &block)
+  end
+
   class ConnectionPool
 
     class Error < ::RuntimeError; end

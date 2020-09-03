@@ -1,9 +1,6 @@
 # Introduction
 `RbConnectionPool` is a generic connection pool.
 
-# Motivation
-TODO
-
 # Documentation
 The [handbook](doc/handbook.md) contains information about various aspects of
 the library.
